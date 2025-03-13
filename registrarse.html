@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrarse.css">
+    <link rel="icon" type="tex/css" href="img/icon.webp">
+    <title>Registrarse</title>
+</head>
+<body>
+    <header class="header">
+        <div class="prin">
+            <a href="principal.html" class="logo">MAKEUP</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="iniciosesion.html">Iniciar Sesión</a></li>
+                    <li><a href="registros.html">Registros</a></li>
+                    <li><a href="principal.html">Atrás</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="form-container">
+        <form class="form">
+            <h1>Registrarse</h1>
+            <label>Nombre completo</label>
+            <input type="text" name="nombre" placeholder="Nombre completo"><br><br>
+            <label>Tipo de Documento</label>
+            <select name="documentos">
+                <option value="TI">TI</option>
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+            </select><br><br>
+            <label>N°</label>
+            <input type="number" placeholder="Número de documento"><br><br>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Email"><br><br>
+            <label>Contraseña</label>
+            <input type="password" name="password" placeholder="Contraseña"><br><br>
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>
